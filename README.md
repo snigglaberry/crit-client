@@ -1,4 +1,4 @@
-this shit is fully ai i dont know java or kotlin therefoureth this is straight slop
+
 
 
 features we need:

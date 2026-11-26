@@ -1,0 +1,35 @@
+{
+  "required": true,
+  "package": "dev.crit.client.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "TitleScreenMixin",
+    "LoadingOverlayMixin",
+    "AbstractButtonMixin",
+    "MenuHotkeyMixin",
+    "CubeMapMixin",
+    "PauseScreenMixin",
+    "PlayerInfoMixin",
+    "AbstractClientPlayerMixin",
+    "MouseHandlerMixin",
+    "JoinMultiplayerScreenMixin",
+    "PackSelectionScreenMixin",
+    "ClientPacketListenerMixin",
+    "HudMixin",
+    "KeyboardInputMixin",
+    "CameraMixin",
+    "LightmapRenderStateExtractorMixin",
+    "LevelRendererMixin",
+    "SkyRendererMixin",
+    "AtmosphericFogEnvironmentMixin",
+    "GameRendererMixin",
+    "ScoreboardMixin",
+    "VersionTextMixin",
+    "FontAccessor",
+    "GlyphStitcherMixin",
+    "GlyphRenderStateMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

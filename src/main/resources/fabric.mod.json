@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "critclient",
+  "version": "${version}",
+  "name": "Crit Client",
+  "description": "Gameplay modules, skins, accounts and an addon store in one popup. Press Right Shift. critlauncher.xyz",
+  "authors": ["chez"],
+  "contact": {
+    "homepage": "https://critlauncher.xyz"
+  },
+  "license": "All-Rights-Reserved",
+  "environment": "client",
+  "icon": "assets/critclient/icon.png",
+  "entrypoints": {
+    "client": ["dev.crit.client.CritClient"]
+  },
+  "mixins": [
+    { "config": "critclient.mixins.json", "environment": "client" }
+  ],
+  "custom": {
+    "critclient:launcher_skin_bridge": 1
+  },
+  "breaks": {
+    "chezstuff": "*",
+    "skinstudio": "*",
+    "chezaccounts": "*",
+    "chezaddons": "*",
+    "chezkeyoverlay": "*",
+    "customskinloader": "*"
+  },
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "~26.2",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}

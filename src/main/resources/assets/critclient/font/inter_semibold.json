@@ -1,0 +1,6 @@
+{
+  "providers": [
+    { "type": "ttf", "file": "critclient:inter-semibold.ttf", "size": 10.5, "oversample": 4 },
+    { "type": "reference", "id": "critclient:inter" }
+  ]
+}

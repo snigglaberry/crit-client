@@ -1,0 +1,21 @@
+# Ignore build artifacts
+/build/
+.gradle/
+
+# Ignore Gradle wrapper
+gradlew
+gradlew.bat
+gradle/wrapper/gradle-wrapper.jar
+gradle/wrapper/gradle-wrapper.properties
+
+# Ignore compiled jars
+*.jar
+
+# Ignore other backup zip files
+*.zip
+
+# Ignore logs
+logs/
+
+# Ignore run scripts
+run/
